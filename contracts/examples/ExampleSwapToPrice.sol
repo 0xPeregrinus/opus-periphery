@@ -1,8 +1,9 @@
-pragma solidity =0.6.6;
+// SPDX-License-Identifier: GPL-3.0-or-later
+pragma solidity =0.6.12;
 
-import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
-import '@uniswap/lib/contracts/libraries/Babylonian.sol';
-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
+import '@opus-fi/core/contracts/interfaces/IUniswapV2Pair.sol';
+import '@opus-fi/lib/contracts/libraries/Babylonian.sol';
+import '@opus-fi/lib/contracts/libraries/TransferHelper.sol';
 
 import '../libraries/UniswapV2LiquidityMathLibrary.sol';
 import '../interfaces/IERC20.sol';

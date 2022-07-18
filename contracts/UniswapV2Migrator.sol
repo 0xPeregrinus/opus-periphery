@@ -1,6 +1,7 @@
-pragma solidity =0.6.6;
+// SPDX-License-Identifier: GPL-3.0-or-later
+pragma solidity =0.6.12;
 
-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
+import '@opus-fi/lib/contracts/libraries/TransferHelper.sol';
 
 import './interfaces/IUniswapV2Migrator.sol';
 import './interfaces/V1/IUniswapV1Factory.sol';
